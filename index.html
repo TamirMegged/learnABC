@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn the ABC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="createArray()">
+    <header>A - Z</header>
+    <div id="secondaryHeader">Learn The English Letters</div>
+    <div id="links"></div>
+    <div id="letters" onclick="playAudio(this)"></div>
+    <audio></audio>
+    <div>Press on the letters to play audio again.</div>
+    <button type="button" class="buttons" id="prev" onclick="showPrev()">Prev.</button>
+    <button type="button" class="buttons" id="next" onclick="showNext()">Next</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
